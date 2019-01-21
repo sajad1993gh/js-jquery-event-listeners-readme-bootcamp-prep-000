@@ -29,6 +29,4 @@ getIt();
 frameIt();
 pressIt();
 submitIt();
-
-
 });
