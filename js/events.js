@@ -6,8 +6,8 @@ function getIt(){
 }
 function frameIt() {
   $('img').on('load', function() {
-    $('img').addClass('tasty');
-  });
+    $('img').addClass('tasty') //??
+  })
 }
 function pressIt() {
   $('#typing').on('keydown', function(e) {
@@ -24,7 +24,9 @@ function submitIt(){
 
 
 $(document).ready(function(){
-
-// call functions here
-
+  // call functions here
+getIt();
+frameIt();
+pressIt();
+submitIt();
 });
